@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>웹프도전기</title>
+    </head>
+    <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet"> <!--제목폰트-->
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet"><!--나눔고딕-->
+    <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css">
+
+<style>
+
+header {
+            text-align:center;
+            height : 100px;
+            margin-top : 70px;
+            margin-bottom: 100px;
+        }     
+#menubar ul {
+            display:inline;
+        margin : 0px;
+        padding : 0px;
+        width : 100%;
+}
+
+#menubar ul li {
+    font-family: 'Do Hyeon', sans-serif;
+    color: black;
+display : inline;
+list-style-type : none;
+padding : 25px;
+width : 100%;
+height : 10px;
+}
+
+#menubar ul li:hover{
+    transition-duration:1.5s;
+}
+a{
+    text-decoration : none;
+    color:white;
+}
+
+#menubar ul li a:hover {
+    color : white;
+    font-size : 150%;
+}
+body{
+      background-image: url('https://user-images.githubusercontent.com/68135400/99946237-5e58a700-2db9-11eb-8f4d-a0aaef2eb180.jpg');
+      background-repeat : no-repeat;
+      background-size : cover;
+      background-attachment: fixed;
+    }
+.box{
+   background-color: rgba(238, 236, 236, 0.7);
+    width: 300px;
+    height: 80px; 
+    border-radius:20px;
+    text-align: center;
+    float:left;
+    margin-right: 230px;
+    margin-left: 220px;
+    margin-bottom:100px;
+    box-shadow: 0 5px 10px 0 hsla(0,0%,0%,0.2);
+}
+.font1{
+      font-family: 'Do Hyeon', sans-serif;
+      height: 100px;
+        text-align:center;
+        color:darkviolet;
+        transition: font-size 1.5s;
+      text-align:center;
+    }
+.font1:hover{
+        color:yellow;
+        font-size: 180% ;
+        font-family: 'Do Hyeon', sans-serif;
+        text-align: center;
+        text-shadow: 2px 4px 3px rgb(244,163,197), 2px 5px 2px rgb(248,67,143),3px 6px 3px rgb(248,11,110);
+    }
+</style>
+    <body>
+    <header>     
+        <a href="index.html"><img src="https://user-images.githubusercontent.com/68135400/100058069-fe6f0880-2e6b-11eb-8665-db540c3497c8.png" alt="logo" height="90";></a>  
+        <nav id="menubar">
+            <ul>
+                <li><a href="소개.html">소개</a></li>
+                <li><a href="행사.html">지능기전 행사</a></li>
+                <li><a href="학교시설.html">학교 시설</a></li>
+                <li><a href="강의후기.html">강의후기</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+       <div class="box" onclick="location.href='1.html'" style="cursor:pointer;">
+        <h2 class="font1"><strong>1 학년</strong></h2>
+    </div>
+    <div class="box" onclick="location.href='2.html'" style="cursor:pointer;">
+        <dl>
+            <h2 class="font1"><strong>2 학년</strong></h2>
+        </dl> 
+    </div>
+    <div class="box" onclick="location.href='3.html'" style="cursor:pointer;">
+        <dl>
+            <h2 class="font1"><strong>3 학년</strong></h2>
+        </dl>
+    </div>
+    <div class="box" onclick="location.href='4.html'" style="cursor:pointer;">
+        <dl>
+            <h2 class="font1"><strong>4 학년</strong></h2>
+        </dl>
+    </div>
+    </section>
+    
+    </body>
+    
+</html>
