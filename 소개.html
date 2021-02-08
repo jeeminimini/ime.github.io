@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>웹프도전기</title>
+    </head>
+    <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet"> <!--제목폰트-->
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet"><!--나눔고딕-->
+    <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css">
+   
+   <style>
+        header {
+            text-align:center;
+            height : 100px;
+            margin-top : 70px;
+            margin-bottom: 100px;
+        }     
+        #menubar ul {
+            display:inline;
+            width : 100%;
+            margin : 0px;
+            padding : 0px;
+        }
+            #menubar ul li {
+                font-family: 'Do Hyeon', sans-serif;
+                display : inline;
+                list-style-type : none;
+                padding : 25px;
+                width : 100%;
+            }
+                #menubar ul li:hover{
+                    transition-duration:1.5s;
+                }
+                a{
+                    text-decoration : none;
+                    color:white;
+                    font-size: 20px;
+                }
+                    #menubar ul li a:hover {
+                        color : white;
+                        font-size : 150%;
+                        text-shadow: 2px 4px 3px rgb(244,163,197), 2px 5px 2px rgb(248,67,143),3px 6px 3px rgb(248,11,110);
+                    }
+body{
+     background-image: url('https://user-images.githubusercontent.com/68135400/99946237-5e58a700-2db9-11eb-8f4d-a0aaef2eb180.jpg');
+     background-repeat : no-repeat;
+    background-size : cover;
+    background-attachment: fixed;
+}
+section{
+    background-color:rgb(231, 238, 248,0.7);
+    margin: auto;
+    height: 1600px;
+    padding-top:80px;
+    text-align: center;
+    width : 85%;
+}
+.Info{
+    font-family: 'Do Hyeon', sans-serif;
+    letter-spacing:0.05em;
+      color: black;
+      text-align:left;
+      font-size:40px;
+      padding:2% 0% 0% 0%;
+      text-align: center;
+      padding : 20px 0px 18px 0px;
+      
+}
+
+
+.font1{
+    font-family: 'NanumSquare', sans-serif ;
+      color: black;
+      font-size:20px;
+      padding:0% 3% 3% 3%;
+      text-align: center;
+      padding : 5px 0px 5px 0px;
+}
+.pic{
+  border-radius: 70%;
+  text-align: center;
+  height:150px;
+  width: 150px;
+  margin: 100px 20px 10px 20px;
+  transform: translate(0px,-70px);  
+}
+.pic2{
+  border-radius: 70%;
+  height:30px;
+  width: 30px;
+  margin: 100px 20px 10px 20px;
+  transform: translate(75px,-270px);
+  
+}
+.box{
+   background-color: rgb(255, 255, 255);
+    width: 200px;
+    height: 300px; 
+    border-radius:7%;
+    text-align: center;
+    float: left;
+    margin: 25px;
+    display: inline-block;
+    box-shadow: 0 5px 10px 0 hsla(0,0%,0%,0.2);
+    /*box-shadow: 0 0 5px rgb(145, 144, 144), 0 0 7px rgb(85, 84, 84),0 0 10px rgb(36, 35, 36);
+    */
+}
+.boxbox{
+  width:1000px;
+  margin: 30px auto 500px auto;
+}
+
+.rbox{
+   background-color:   rgb(195, 0, 47);
+    width: 200px;
+    height: 20px; 
+    border-radius: 14px 14px 0px 0px;
+  
+}
+.text{
+    font-family: 'Do Hyeon', sans-serif;
+    letter-spacing:0.2em;
+    color: black;
+      text-align:center;
+      font-size:20px;
+      transform: translate(0px,-95px);
+      text-align: center;
+}
+.text2{
+    font-family: 'NanumSquare', sans-serif ;
+    letter-spacing:0.2em;
+    color: black;
+      text-align:center;
+      font-size:15px;
+      transform: translate(0px,-140px);
+      text-align: center;
+}
+.clear{
+    clear: left;
+}
+.line1{
+    background-color: rgb(0, 0, 0);
+    width: 310px;
+    height: 2px; 
+    text-align: center;
+    margin: 0 auto ;
+  
+}
+.line2{
+    background-color: rgb(0, 0, 0);
+    width: 180px;
+    height: 2px; 
+    text-align: center;
+    margin: 0 auto ;
+  
+}
+.box2{
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    height: 428px; 
+    border-radius:7%;
+    text-align: center;
+    float: left;
+    margin: 60px;
+    display: inline-block;
+    box-shadow: 0 5px 10px 0 hsla(0,0%,0%,0.2);
+}
+.boxbox2{
+  width:1040px;
+  margin: 30px auto 500px auto;
+}
+.s-pic{
+    border-radius: 7%;
+  text-align: center;
+  width: 400px;
+  height:300px;
+  margin: 0 auto;
+}
+.s-text{
+    font-family: 'Do Hyeon', sans-serif;
+    letter-spacing:0.2em;
+    color: black;
+      text-align:center;
+      font-size:20px;
+      transform: translate(0px,-13px);
+}
+.s-text2{
+    font-family: 'NanumSquare', sans-serif ;
+    letter-spacing:0.2em;
+    color: black;
+      text-align:center;
+      font-size:15px;
+      transform: translate(0px,-70px);
+      padding-top:5px;
+}
+
+    </style>
+    <body>  
+        <header>     
+            <a href="index.html"><img src="https://user-images.githubusercontent.com/68135400/100058069-fe6f0880-2e6b-11eb-8665-db540c3497c8.png" alt="logo" height="90"></a>  
+            <nav id="menubar">
+                <ul>
+                    <li><a href="소개.html">소개</a></li>
+                    <li><a href="행사.html">지능기전 행사</a></li>
+                    <li><a href="학교시설.html">학교 시설</a></li>
+                    <li><a href="강의후기.html">강의후기</a></li>
+                </ul>
+            </nav>
+        </header>
+    <section>
+        <div class="line1"></div>
+        <article class="Info"><strong>www.웹프도전기.ac.kr</strong></article> 
+        <div class="font1">www.웹프도전기.ac.kr는 지능기전공학부 학술 소모임입니다.</div>
+            <div class="font1">웹 프로그래밍 과목을 집중적으로 학습하며 소모임만의 지능기전 관련 사이트를 만드는 것을 목표로 하고 있습니다.</div>
+
+          
+         <div class="boxbox">
+        <div class="box">  <div class="rbox">
+            <img class="pic" src="https://user-images.githubusercontent.com/68135400/100059316-337c5a80-2e6e-11eb-8544-061fa64fe91b.png" alt="지민" >
+            <p class="text">이지민</p><br>
+            <p class="text2">지능기전공학부<br>스마트기기전공<br>19학번</p>
+            <img class="pic2" src="https://user-images.githubusercontent.com/68135400/100075097-dccd4b80-2e82-11eb-9ec6-7abb2f52ffe5.png" alt="세종대 로고">
+        </div></div>
+        <div class="box">  <div class="rbox">
+            <img class="pic" src="https://user-images.githubusercontent.com/68135400/100059802-01b7c380-2e6f-11eb-9c8d-739ae1445841.png" alt="나경">
+            <p class="text">이나경</p><br>
+            <p class="text2">지능기전공학부<br>스마트기기전공<br>19학번</p>
+            <img class="pic2" src="https://user-images.githubusercontent.com/68135400/100075097-dccd4b80-2e82-11eb-9ec6-7abb2f52ffe5.png" alt="세종대 로고">
+        </div></div>
+        <div class="box">  <div class="rbox">
+            <img class="pic" src="https://user-images.githubusercontent.com/68135400/100060545-0af56000-2e70-11eb-8b4d-543c2922808a.png" alt="유라">
+            <p class="text">김유라</p><br>
+            <p class="text2">지능기전공학부<br>무인이동체전공<br>19학번</p>
+            <img class="pic2" src="https://user-images.githubusercontent.com/68135400/100075097-dccd4b80-2e82-11eb-9ec6-7abb2f52ffe5.png" alt="세종대 로고">
+        </div></div>
+        <div class="box">  <div class="rbox">
+            <img class="pic" src="https://user-images.githubusercontent.com/68135400/100060631-2a8c8880-2e70-11eb-843d-4206c85d64bb.png" alt="소민">
+            <p class="text">이소민</p><br>
+            <p class="text2">지능기전공학부<br>무인이동체전공<br>19학번</p>
+            <img class="pic2" src="https://user-images.githubusercontent.com/68135400/100075097-dccd4b80-2e82-11eb-9ec6-7abb2f52ffe5.png" alt="세종대 로고">
+        </div></div>
+    </div>
+    <div class="line2"></div>
+  <div class="clear">
+        <article class="Info"><strong>지능기전공학부</strong></article> </div>
+        <div class="font1">
+           인공지능 + 기계 + 전자가 융합된 의미로,
+          </div> 
+        <div class="font1">
+            스마트기기 와 무인이동체 분야를 심도있게 교육하고 다양한 융합 신기술을 연구하여
+          </div> 
+          <div class="font1">관련 분야를 선도해 나갈 창의적이고 능동적인 인재를 배출하고자 하는 뚜렷한 목표를 가진 학과입니다.
+        </div>
+   
+        <div class="boxbox2">
+            <div class="box2">  
+                <img class="s-pic" src="https://user-images.githubusercontent.com/68135400/100132309-969adb00-2ec8-11eb-83f6-2596ee866d50.png" alt="스마트기기" >
+                <p class="s-text">스마트기기 전공</p><br>
+                <p class="s-text2">
+                    IT, 전자, 기계 기술을 바탕으로<br>
+                    진화된 인공지능기술을 다양한 사물에 접목하는<br>
+                    스마트 기기 기술을 선도할 창의적이고 전문적인<br>
+                     실무형 인재 양성을 목표
+                </p>
+            </div>
+            <div class="box2">  
+                <img class="s-pic" src="https://user-images.githubusercontent.com/68135400/100133792-93085380-2eca-11eb-9f79-390fce2532a4.png" alt="무인이동체">
+                <p class="s-text">무인이동체 전공</p><br>
+                <p class="s-text2">
+                    기계/항공공학, 전기/전자공학, 첨단 IT 기술을<br>
+                    창의적으로 융합하고 이에 디자인 기술을 연계한 <br>
+                    진화된 인공지능기술의 자율 무인 이동체 분야의<br>
+                    핵심역량을 갖춘 실무형 인재 양성을 목표
+                </p>
+            </div>
+        </div>
+    </section>
+    
+    </body>
+    
+</html>
